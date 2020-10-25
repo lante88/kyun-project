@@ -1,17 +1,42 @@
 <!doctype html>
 <html>
 <head>
- <title>요니위키?</title>
+ <title>요니위키</title>
  <meta charset="utf-8">
 </head>
+<style>
+ a {color:black}
+ /*
+ block level element
+ */
+ h1 {font-size: 300%; text-align: center;
+ color:gray;
+ border-bottom:3px gray solid;
+ margin:0;
+ padding:20px;
+ display:block;}
+ ol {border-right:1px gray solid;
+ margin:0; padding:40px;
+ width:300px;}
+ /*
+inline level element
+ */
+ h2 {border:3px red solid; display:inline;}
+ body {margin:0;}
+ #active {color:red;}
+ .saw {color:gray;}
+ #editor {font-style:italic}
+ </style>
 <body>
-  <h1><a href="dictionary.html">요니위키 설립목적</a></h1>
-<p style="margin-top:20px;">내가 사랑하는 김지연은 <strong>91년생, 여자</strong>이고 <u>대전 가장동</u>에 살고있다.</p>
-<p style="margin-top:20px;">나는 내가 사랑하는 지연이를 위해서 <a href="https://www.w3.org/TR/html52/" target="_blank" title="html5 specification">HTML</a>웹페이지를 만들어보기로 결심했다.</p>
-  <h2>인적사항(요니?)</h2>
-<p>본명 : 김지연</p>
-<p>나이 : 꽃다운 30살(2021년까지 30살일 예정) </p>
-<p>사랑하는 것들 : 가족, 남자친구, 산책하기 좋은 날씨, 독서 등 </p>
-<image src="IMG_6870.jpg" width="30%">
-</body>
-  </html>
+  <h1><a href="4.html">요니위키?</a></h1>
+<ol>
+  <li><a href="1.html" class="saw"> 홈페이지 개설 목적</a></li>
+  <li><a href="2.html" id="active">진행 방향</a></li>
+  <li><a href="3.html">목차</a></li>
+</ol>
+  <h2>작성자</h2>
+<ul id="editor">
+  <li>편집자 오영균</li>
+  <li>제작자 오영균</li>
+  <li>후원자 김지연</li>
+</ul>
