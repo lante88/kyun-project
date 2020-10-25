@@ -4,15 +4,38 @@
  <title>요니위키</title>
  <meta charset="utf-8">
 </head>
+<style>
+ a {color:black}
+ /*
+ block level element
+ */
+ h1 {font-size: 300%; text-align: center;
+ color:gray;
+ border-bottom:3px gray solid;
+ margin:0;
+ padding:20px;
+ display:block;}
+ ol {border-right:1px gray solid;
+ margin:0; padding:40px;
+ width:300px;}
+ /*
+inline level element
+ */
+ h2 {border:3px red solid; display:inline;}
+ body {margin:0;}
+ #active {color:red;}
+ .saw {color:gray;}
+ #editor {font-style:italic}
+ </style>
 <body>
   <h1><a href="index.html">요니위키?</a></h1>
 <ol>
-  <li><a href="1.html">홈페이지 개설 목적</a></li>
-  <li><a href="2.html">진행 방향</a></li>
+  <li><a href="1.html" class="saw"> 홈페이지 개설 목적</a></li>
+  <li><a href="2.html" id="active">진행 방향</a></li>
   <li><a href="3.html">목차</a></li>
 </ol>
   <h2>작성자</h2>
-<ul>
+<ul id="editor">
   <li>편집자 오영균</li>
   <li>제작자 오영균</li>
   <li>후원자 김지연</li>
