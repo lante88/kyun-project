@@ -4,29 +4,7 @@
  <title>yonikyunny love wiki</title>
  <meta charset="utf-8">
 </head>
-<style>
- a {color:black}
- /*
- block level element
- */
- h1 {font-size: 300%; text-align: center;
- color:gray;
- border-bottom:3px gray solid;
- margin:0;
- padding:20px;
- display:block;}
- ol {border-right:1px gray solid;
- margin:0; padding:40px;
- width:300px;}
- /*
-inline level element
- */
- h2 {border:3px red solid; display:inline;}
- body {margin:0;}
- #active {color:red;}
- .saw {color:gray;}
- #editor {font-style:italic}
- </style>
+<link rel="stylesheet" href="style.css">
 <body>
   <h1><a href="4.html">love wiki?</a></h1>
 <ol>
@@ -40,3 +18,12 @@ inline level element
   <li>제작자 오영균</li>
   <li>후원자 김지연</li>
 </ul>
+<div id="button">
+  <input type="button" value="night" onclick="
+    document.querySelector('body').style.backgroundColor='black';
+    document.querySelector('body').style.color='white';">
+  <input type="button" value="day" onclick="
+    document.querySelector('body').style.backgroundColor='white';
+    document.querySelector('body').style.color='black';">
+</div>
+</body>

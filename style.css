@@ -1,0 +1,27 @@
+a {color:pink;text-decoration:none;}
+/*
+block level element
+*/
+h1 {font-size: 300%; text-align: center;
+color:pink;
+border-bottom:3px gray solid;
+margin:0;
+padding:20px;
+display:block;}
+ol {border-right:1px gray solid;
+margin:0; padding:40px;
+width:300px;}
+ul {border-top:1px gray solid; border-bottom:1px gray solid;
+  border-right:1px gray solid;
+margin:0; padding:40px;
+width:300px;}
+/*
+inline level element
+*/
+h2 {border:3px red solid; display:inline;}
+body {margin:0;}
+#active {color:red;}
+.saw {color:gray;}
+#editor {font-style:italic}
+#button{display:grid;
+grid-template-columns: 50px 50px;}
